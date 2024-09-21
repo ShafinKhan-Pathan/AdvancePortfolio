@@ -1,185 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shafin Khan</title>
-    <link rel="stylesheet" href="/style.css">
-    <script src="https://kit.fontawesome.com/d4b4020cf0.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d4b4020cf0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "O1tF--IwQPNGNvMM0",
+        });
+      })();
+    </script>
+  </head>
 
-<body>
+  <body>
     <section id="landing-page">
-        <nav>
-            <figure>
-                <a href="#"><img id="personal-logo" src="/assets/Personal__logo2.png" alt=""></a>
-            </figure>
-            <ul class="nav__link--lists">
-                <li class="nav__link">
-                    <a href="" class="nav__link--anchor nav__link--hover nav__link--black">About</a>
-                </li>
-                <li class="nav__link">
-                    <a href="" class="nav__link--anchor nav__link--hover nav__link--black">Projects</a>
-                </li>
-                <li class="nav__link">
-                    <a href="" class="nav__link--anchor nav__link--hover nav__link--black">Contact</a>
-                </li>
-                <li class="nav__link click">
-                    <a href="" class="nav__link--anchor nav__link--hover nav__link--black "><i
-                            class="fa-solid fa-circle-half-stroke"></i></a>
-                </li>
-            </ul>
-        </nav>
-        <header>
-            <div class="header__content">
-                <div class="portfolio__title unique__modifier">
-                    WELCOME TO MY PORTFOLIO
-                </div>
-                <h1 class="my-title">Hello, I'm Shafin Khan! a <span class="unique__modifier">Junior Frontend Software
-                        Engineer.</span></h1>
-                <h3 class="subtitle">I'm passionate about creating high-performance, responsive web applications that
-                    provide an exceptional user experience and positively impact the world.</h3>
+      <nav>
+        <figure>
+          <a href="#"
+            ><img id="personal-logo" src="/assets/Personal__logo2.png" alt=""
+          /></a>
+        </figure>
+        <ul class="nav__link--lists">
+          <li class="nav__link">
+            <a
+              href=""
+              class="nav__link--anchor nav__link--hover nav__link--black"
+              >About</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href=""
+              class="nav__link--anchor nav__link--hover nav__link--black"
+              >Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href=""
+              class="nav__link--anchor nav__link--hover nav__link--black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav__link click">
+            <a
+              href=""
+              class="nav__link--anchor nav__link--hover nav__link--black"
+              ><i class="fa-solid fa-circle-half-stroke"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header__content">
+          <div class="portfolio__title unique__modifier">
+            WELCOME TO MY PORTFOLIO
+          </div>
+          <h1 class="my-title">
+            Hello, I'm Shafin Khan! a
+            <span class="unique__modifier"
+              >Junior Frontend Software Engineer.</span
+            >
+          </h1>
+          <h3 class="subtitle">
+            I'm passionate about creating high-performance, responsive web
+            applications that provide an exceptional user experience and
+            positively impact the world.
+          </h3>
 
-                <a class="click" href="#projects">
-                    <button class="project__btn ">Check My Work <i class="fa-solid fa-down-long"></i></button>
-                </a>
-                <div class="social__links">
-                    <a class="social__link click" href="">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a class="social__link click" href="">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a class="social__link click" href="">
-                        <i class="fa-solid fa-file"></i>
-                    </a>
-                </div>
-            </div>
-        </header>
-        <button class="mail__btn click">
-            <i class="fa-solid fa-square-envelope"></i>
-        </button>
-        <div class="modal">
-            <div class="half__modal modal__about">
-                <h3 class="modal__about--title">Here's a bit about me</h3>
-                <h4 class="modal__about--occupation unique__modifier">Junior Frontend Software Engineer</h4>
-                <p class="modal__about--para">
-                    I thrive on solving complex problems and improving my skills through continuous learning. My goal is to build high-performance web applications that provide exceptional user experiences.
-                    <br>
-                    I am detail-oriented, adaptable, and driven to make a positive impact through my work. When I’m not coding, I enjoy exploring new technologies and enhancing my design capabilities.
-                </p>
-                <div class="modal__languages">
-                    <div class="language">
-                        <figure class="modal__figure--image">
-                            <img class="modal__language--image" src="/assets/html.png" alt="">
-                        </figure>
-                        <figure class="modal__figure--image">
-                            <img class="modal__language--image" src="/assets/css.png" alt="">
-                        </figure>
-                        <figure class="modal__figure--image">
-                            <img class="modal__language--image" src="/assets/js1.png" alt="">
-                        </figure>
-                        <figure class="modal__figure--image">
-                            <img class="modal__language--image" src="/assets/python.png" alt="">
-                        </figure>
-                        <figure class="modal__figure--image">
-                            <img class="modal__language--image" src="/assets/postgresql.png" alt="">
-                        </figure>
-                        <figure class="modal__figure--image">
-                            <img class="modal__language--image" src="/assets/dj.png" alt="">
-                        </figure>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="half__modal modal__contact">Let's contact right now</div>
+          <a class="click" href="#projects">
+            <button class="project__btn">
+              Check My Work <i class="fa-solid fa-down-long"></i>
+            </button>
+          </a>
+          <div class="social__links">
+            <a class="social__link click" href="">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="social__link click" href="">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="social__link click" href="">
+              <i class="fa-solid fa-file"></i>
+            </a>
+          </div>
         </div>
+      </header>
+      <button class="mail__btn click">
+        <i class="fa-solid fa-square-envelope"></i>
+      </button>
+      <div class="modal">
+        <div class="half__modal modal__about">
+          <h3 class="modal__about--title">Here's a bit about me</h3>
+          <h4 class="modal__subtitle unique__modifier">
+            Junior Frontend Software Engineer
+          </h4>
+          <p class="modal__about--para">
+            I thrive on solving complex problems and improving my skills through
+            continuous learning. My goal is to build
+            <b class="unique__modifier"> high-performance web applications</b>
+            that provide exceptional
+            <b class="unique__modifier">user experiences.</b>
+            <br />
+            I am
+            <b class="unique__modifier"
+              >detail-oriented, adaptable, and driven to make a positive impact
+              through my work.</b
+            >
+            When I’m not coding, I enjoy exploring new technologies and
+            enhancing my design capabilities.
+          </p>
+          <div class="modal__languages">
+            <div class="language">
+              <figure class="modal__figure--image">
+                <img
+                  class="modal__language--image"
+                  src="/assets/html.png"
+                  alt=""
+                />
+                <span class="language__name">HTML</span>
+              </figure>
+              <figure class="modal__figure--image">
+                <img
+                  class="modal__language--image"
+                  src="/assets/css.png"
+                  alt=""
+                />
+                <span class="language__name">CSS</span>
+              </figure>
+              <figure class="modal__figure--image">
+                <img
+                  class="modal__language--image"
+                  src="/assets/js1.png"
+                  alt=""
+                />
+                <span class="language__name">JavaScript</span>
+              </figure>
+              <figure class="modal__figure--image">
+                <img
+                  class="modal__language--image"
+                  src="/assets/python.png"
+                  alt=""
+                />
+                <span class="language__name">Python</span>
+              </figure>
+              <figure class="modal__figure--image">
+                <img
+                  class="modal__language--image"
+                  src="/assets/postgresql.png"
+                  alt=""
+                />
+                <span class="language__name">PostgreSQL</span>
+              </figure>
+              <figure class="modal__figure--image">
+                <img
+                  class="modal__language--image"
+                  src="/assets/dj.png"
+                  alt=""
+                />
+                <span class="language__name">Django</span>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="half__modal modal__contact">
+          <h3 class="modal__contact--title">Let's contact right now</h3>
+          <h4 class="modal__subtitle">Currently Open to work</h4>
+          <form id="contact__form" onsubmit="contact(event)">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+              <input class="input" name="user_name" type="text" />
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Email</label>
+              <input class="input" name="user_email" type="email" />
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Message</label>
+              <textarea class="input" name="message"></textarea>
+            </div>
+            <button
+              id="contact__submit"
+              type="submit"
+              class="form__submit--btn"
+            >
+              Send it my way
+            </button>
+          </form>
+          <div class="modal__overlay modal__overlay--loading">
+            <i class="fa-solid fa-spinner"></i>
+          </div>
+          <div class="modal__overlay modal__overlay--success">
+            Thanks for the contact! looking forward to speaking to you soon.
+          </div>
+        </div>
+        <i class="fa-solid fa-x modal__exit click"></i>
+      </div>
     </section>
     <section id="projects">
-        <div class="container">
-            <div class="row">
-                <h1 class="project__title">Here are some of my <span class="unique__modifier">Projects </span></h1>
-                <ul class="project__list">
-                    <li class="project">
-                        <div class="project__wrapper">
-                            <img class="project__image" src="/assets/CarZone.png" alt="">
-                            <div class="project__description">
-                                <h3 class="project__description--title">
-                                    Car Selling Website
-                                </h3>
-                                <h4 class="project__description--subtitle">
-                                    HTML, CSS, JAVASCRIPT
-                                </h4>
-                                <p class="project__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa veritatis, sed vero ipsum aperiam esse sequi aspernatur eum ratione dignissimos maiores, magni impedit! Asperiores illo ratione voluptate culpa ad.</p>
-                                <div class="project__description--links">
-                                    <a href="" class="project__description--link"><i class="fa-brands fa-github"></i></a>
-                                    <a href="" class="project__description--link">
-                                        <i class="fas fa-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__wrapper">
-                            <img class="project__image" src="/assets/CarZone.png" alt="">
-                            <div class="project__description">
-                                <h3 class="project__description--title">
-                                    Car Selling Website
-                                </h3>
-                                <h4 class="project__description--subtitle">
-                                    HTML, CSS, JAVASCRIPT
-                                </h4>
-                                <p class="project__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa veritatis, sed vero ipsum aperiam esse sequi aspernatur eum ratione dignissimos maiores, magni impedit! Asperiores illo ratione voluptate culpa ad.</p>
-                                <div class="project__description--links">
-                                    <a href="" class="project__description--link"><i class="fa-brands fa-github"></i></a>
-                                    <a href="" class="project__description--link">
-                                        <i class="fas fa-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__wrapper">
-                            <img class="project__image" src="/assets/CarZone.png" alt="">
-                            <div class="project__description">
-                                <h3 class="project__description--title">
-                                    Car Selling Website
-                                </h3>
-                                <h4 class="project__description--subtitle">
-                                    HTML, CSS, JAVASCRIPT
-                                </h4>
-                                <p class="project__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa veritatis, sed vero ipsum aperiam esse sequi aspernatur eum ratione dignissimos maiores, magni impedit! Asperiores illo ratione voluptate culpa ad.</p>
-                                <div class="project__description--links">
-                                    <a href="" class="project__description--link"><i class="fa-brands fa-github"></i></a>
-                                    <a href="" class="project__description--link">
-                                        <i class="fas fa-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="row">
+          <h1 class="project__title">
+            Here are some of my <span class="unique__modifier">Projects </span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img class="project__image" src="/assets/CarZone.png" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Selling Website
+                  </h3>
+                  <h4 class="project__description--subtitle">
+                    HTML, CSS, JAVASCRIPT
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum culpa veritatis, sed vero ipsum aperiam esse sequi
+                    aspernatur eum ratione dignissimos maiores, magni impedit!
+                    Asperiores illo ratione voluptate culpa ad.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a href="" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img class="project__image" src="/assets/CarZone.png" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Selling Website
+                  </h3>
+                  <h4 class="project__description--subtitle">
+                    HTML, CSS, JAVASCRIPT
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum culpa veritatis, sed vero ipsum aperiam esse sequi
+                    aspernatur eum ratione dignissimos maiores, magni impedit!
+                    Asperiores illo ratione voluptate culpa ad.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a href="" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img class="project__image" src="/assets/CarZone.png" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Selling Website
+                  </h3>
+                  <h4 class="project__description--subtitle">
+                    HTML, CSS, JAVASCRIPT
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum culpa veritatis, sed vero ipsum aperiam esse sequi
+                    aspernatur eum ratione dignissimos maiores, magni impedit!
+                    Asperiores illo ratione voluptate culpa ad.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a href="" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="footer__wrapper">
-            <figure>
-                <img src="/assets/Personal__logo2.png" class="footer__personal-logo" alt="">
-            </figure>
-            <div class="footer__social--links">
-                <a href="" class="footer__social--link footer__link--hover">GitHub</a>
-                <a href="" class="footer__social--link footer__link--hover">LinkedIn</a>
-                <a href="" class="footer__social--link footer__link--hover">Email</a>
-                <a href="" class="footer__social--link footer__link--hover">Resume</a>
-            </div>
-            <p class="footer__para">&copy; Shafin Khan. All Right Reserved</p>
+      <div class="container">
+        <div class="footer__wrapper">
+          <figure>
+            <img
+              src="/assets/Personal__logo2.png"
+              class="footer__personal-logo"
+              alt=""
+            />
+          </figure>
+          <div class="footer__social--links">
+            <a href="" class="footer__social--link footer__link--hover"
+              >GitHub</a
+            >
+            <a href="" class="footer__social--link footer__link--hover"
+              >LinkedIn</a
+            >
+            <a href="" class="footer__social--link footer__link--hover"
+              >Email</a
+            >
+            <a href="" class="footer__social--link footer__link--hover"
+              >Resume</a
+            >
+          </div>
+          <p class="footer__para">&copy; Shafin Khan. All Right Reserved</p>
         </div>
-    </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
