@@ -403,6 +403,7 @@ header{
 }
 .project__list{
     padding: 48px;
+    height: auto;
 }
 .project__wrapper{
     box-shadow: 0 20px 80px black;
@@ -543,6 +544,7 @@ left 80vw
 .shape--4{
     top:50vh;
     left: 50vw;
+    display: none;
 }
 .shape--5{
     top:50vh;
