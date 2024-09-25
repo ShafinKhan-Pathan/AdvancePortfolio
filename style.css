@@ -563,9 +563,9 @@ left 80vw
 }
 
 @media (max-width:768px) {
-    #projects{
+    /* #projects{
         margin-top: 250px;
-    }
+    } */
     .portfolio__title{
         font-size: 14px;
         letter-spacing: 8px;
@@ -582,6 +582,7 @@ left 80vw
         height: auto;
         transform: none;
         width: 100%;
+        max-width: 800px;
         flex-direction: column-reverse;
         border-radius: 0;
     }
@@ -594,7 +595,7 @@ left 80vw
     }
 }
 @media (max-width:580px) {
-    .shape{
+    .shape--3, .shape--7, .shape--4, .shape--5, .shape--0, .shape--2{
         display: none;
     }
     .project__description{
@@ -637,7 +638,16 @@ left 80vw
     }
 }
 @media (max-width:400px) {
-    
+    .modal--open #projects
+    {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 600ms ease;
+    }
+    #personal-logo{
+        width: 90px;
+        height: 65px;
+    }
     .nav__link:first-child{
         display: none;
     }
@@ -651,20 +661,12 @@ left 80vw
     .subtitle{
         max-width: 350px;
     }
-    .modal{
-        top: 0;
-        left: 0;
-        height: auto;
-        transform: none;
-        width: 100%;
-        flex-direction: column-reverse;
-        border-radius: 0;
-    }
     .half__modal{
         width: 100%;
+        height: auto;
     }
     .modal__language--image{
-       display: none;
+        width: 100%;
     }
     .language__name{
         font-size: 12px;
