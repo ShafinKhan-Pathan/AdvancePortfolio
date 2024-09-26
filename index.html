@@ -6,7 +6,7 @@
     <title>Shafin Khan</title>
     <link rel="icon" type="image/png" href="./assets/final.png">
     <link rel="stylesheet" href="./style.css" />
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
     <script
       src="https://kit.fontawesome.com/d4b4020cf0.js"
       crossorigin="anonymous"
@@ -33,7 +33,7 @@
           /></a>
         </figure>
         <ul class="nav__link--lists">
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor nav__link--hover nav__link--black"
@@ -47,10 +47,10 @@
               >Projects</a
             >
           </li>
-          <li onclick="toggleModal()">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
-              class="nav__link--anchor nav__ link--hover nav__link--black"
+              class="nav__link--anchor nav__link--hover nav__link--black"
               >Contact</a
             >
           </li>
@@ -101,7 +101,7 @@
           </div>
         </div>
       </header>
-      <a href="#modal"><button class="mail__btn click" onclick="toggleModal()">
+      <a href="#landing-page"><button class="mail__btn click" onclick="toggleModal()">
         <i class="fa-solid fa-square-envelope"></i>
       </button></a>
       <div id="modal">
@@ -124,6 +124,9 @@
             When I’m not coding, I enjoy exploring new technologies and
             enhancing my design capabilities.
           </p>
+          <h3 style="text-align: center;" class="modal__about--title unique__modifier">
+           My Expertice
+          </h3>
           <div class="modal__languages">
             <div class="language">
               <figure class="modal__figure--image">
@@ -232,6 +235,7 @@
           <ul class="project__list">
             <li class="project">
               <div class="project__wrapper">
+                
                 <img
                   class="project__image"
                   src="./assets/EcommerceImage.png"
@@ -327,10 +331,7 @@
                     customized admin controls enhance efficient platform
                     management.Detailed property pages provide comprehensive
                     information, while secure features prevent redundancy and
-                    ensure data accuracy. This project not only prioritizes a
-                    smooth user experience but also facilitates effective
-                    communication between users and the site admin, offering a
-                    complete and secure property browsing solution.
+                    ensure data accuracy.
                   </p>
                   <div class="project__description--links">
                     <a href="https://github.com/ShafinKhan-Pathan/RealEstate-project" target="_blank" class="project__description--link"
