@@ -545,6 +545,7 @@ footer {
 }
 
 .footer__personal-logo {
+    cursor: no-drop;
   width: 100%;
   max-width: 135px;
   filter: invert(1);
